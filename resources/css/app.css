@@ -1,0 +1,28 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: #FAF9F6;
+    color: #333;
+}
+
+.navbar.glass {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(12px);
+    background: rgba(255,255,255,0.7);
+    z-index: 1000;
+}
+
+.hero {
+    min-height: 100vh;
+    background: linear-gradient(135deg,#FAF9F6,#FF9DB5,#B5A3D6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 220px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.15);
+}
